@@ -12,13 +12,34 @@ public class GenerandoContrasenas {
     int cantidad = scanner.nextInt();
     Random  random = new Random();
     char[] caracteres = new char[cantidad];
-    for(int i=0;i<cantidad;i++){
-      int numero = numeroAleatorioEnIntervalos(random);
-      char letra = (char) numero;
-      caracteres[i] = letra; 
-    }
+    boolean mayuscula,minuscula,esDigito;
+    String cadena = "";
+    do {
+      mayuscula=false;
+      minuscula=false;
+      esDigito=false;
+      for(int i=0;i<cantidad;i++){
+        int numero = numeroAleatorioEnIntervalos(random);
+        char letra = (char) numero;
+        caracteres[i] = letra;
+        if (Character.isUpperCase(letra)) {
+            mayuscula = true;
+        }
+        if (Character.isLowerCase(letra)) {
+            minuscula = true;
+        }
+        if (Character.isDigit(letra)) {
+            esDigito = true;
+        }
+      }
+    } while (!mayuscula || !minuscula || !esDigito);
     System.out.println(Arrays.toString(caracteres));
+    for(int j=0;j<caracteres.length;j++){
+      cadena = cadena+caracteres[j];
+    }
+    System.out.println("Contrasena sugerida es: "+cadena);
   }
+
   public static int numeroAleatorioEnIntervalos(Random random){
     int numeroAleatorio;
     int selector = random.nextInt(3);

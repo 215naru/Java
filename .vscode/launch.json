@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ManipulacionOraciones",
+      "request": "launch",
+      "mainClass": "ManipulacionOraciones",
+      "projectName": "Java_f735af0a"
+    },
+    {
+      "type": "java",
       "name": "Current File",
       "request": "launch",
       "mainClass": "${file}"

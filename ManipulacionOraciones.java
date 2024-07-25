@@ -1,4 +1,6 @@
+import java.text.Collator;
 import java.util.Arrays;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class ManipulacionOraciones {
@@ -25,37 +27,39 @@ public class ManipulacionOraciones {
                 scanner.nextLine(); // Consumir el salto de línea después de nextInt()
                 
                 switch (option) {
-                    case 1 -> {
+                    case 1:
                         System.out.print("Ingrese una nueva oración: ");
                         sentence = scanner.nextLine();
-                    }
-                    case 2 -> {
+                        break;
+                    case 2:
                         System.out.println("La oración tiene " + sentence.length() + " caracteres");
-                    }
-                    case 3 -> {
+                        break;
+                    case 3:
                         int wordsCount = countWords(sentence);
                         System.out.println("La cantidad de palabras es: " + wordsCount);
-                    }
-                    case 4 -> {
-                        String[] words = sentence.split("\\s+");
-                        Arrays.sort(words);
-                        System.out.println("Palabras ordenadas alfabéticamente: " + Arrays.toString(words));
-                    }
-                    case 5 -> {
-                        String[] words = sentence.split("\\s+");
+                        break;
+                    case 4:
+                        String[] words = sentence.trim().split("\\s+");
+                        Collator collator = Collator.getInstance(new Locale("es","ES"));
+                        collator.setStrength(Collator.PRIMARY);
+                        Arrays.sort(words, collator);
+                        System.out.println("Palabras ordenadas alfabéticamente: " + String.join(" ", words));
+                        break;
+                    case 5:
+                        words = sentence.split("\\s+");
                         System.out.print("Ingrese un número: ");
                         int number = scanner.nextInt();
-                        scanner.nextLine();
+                        scanner.nextLine(); // Consumir el salto de línea después de nextInt()
                         if (number > 0 && number <= words.length) {
                             System.out.println("La palabra en la posición " + number + " es: " + words[number - 1]);
                         } else {
                             System.out.println("Número inválido. Intente nuevamente.");
                         }
-                    }
-                    case 6 -> {
+                        break;
+                    case 6:
                         System.out.print("Ingrese una palabra para buscar: ");
                         String wordSearch = scanner.nextLine();
-                        String[] words = sentence.split("\\s+");
+                        words = sentence.split("\\s+");
                         boolean find = false;
                         for (int i = 0; i < words.length; i++) {
                             if (words[i].equals(wordSearch)) {
@@ -67,22 +71,19 @@ public class ManipulacionOraciones {
                         if (!find) {
                             System.out.println("La palabra \"" + wordSearch + "\" no fue encontrada en la oración.");
                         }
-                    }
-                    case 7 -> {
-                        System.out.print("Ingrese la palabra que desea modificar: ");
-                        String oldWord = scanner.nextLine();
-                        System.out.print("Ingrese la nueva palabra: ");
-                        String newWord = scanner.nextLine();
-                        sentence = sentence.replace(oldWord, newWord);
-                        System.out.println("La oración modificada es: " + sentence);
-                    }
-                    case 8 -> {
-                      
-                    }
-                    case 9 -> {
+                        break;
+                    case 7:
+                        // Aquí puedes agregar el código para modificar una palabra dentro de la oración.
+                        break;
+                    case 8:
+                        // Aquí puedes agregar el código para agregar contenido a la oración.
+                        break;
+                    case 9:
                         salir = false;
-                    }
-                    default -> System.out.println("Opción inválida. Intente nuevamente.");
+                        break;
+                    default:
+                        System.out.println("Opción inválida. Intente nuevamente.");
+                        break;
                 }
             } else {
                 System.out.print("Ingrese una oración: ");

@@ -1,0 +1,364 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "BusquedaBinaria",
+      "request": "launch",
+      "mainClass": "BusquedaBinaria",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "BusquedaCaracteres",
+      "request": "launch",
+      "mainClass": "BusquedaCaracteres",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "CadenaRepresentaNumero",
+      "request": "launch",
+      "mainClass": "CadenaRepresentaNumero",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "CalculaRaizCuadrada",
+      "request": "launch",
+      "mainClass": "CalculaRaizCuadrada",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "CalculandoPotencia",
+      "request": "launch",
+      "mainClass": "CalculandoPotencia",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "CalculoFactorial",
+      "request": "launch",
+      "mainClass": "CalculoFactorial",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "ComparandoArreglos",
+      "request": "launch",
+      "mainClass": "ComparandoArreglos",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "ConcatenacionCadenas",
+      "request": "launch",
+      "mainClass": "ConcatenacionCadenas",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "ContandoDigitosNumero",
+      "request": "launch",
+      "mainClass": "ContandoDigitosNumero",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "ConteoEspaciosEnBlanco",
+      "request": "launch",
+      "mainClass": "ConteoEspaciosEnBlanco",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "ConversionCadenaEntero",
+      "request": "launch",
+      "mainClass": "ConversionCadenaEntero",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "ConversionCadenaNumero",
+      "request": "launch",
+      "mainClass": "ConversionCadenaNumero",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "ConversionCalificaciones",
+      "request": "launch",
+      "mainClass": "ConversionCalificaciones",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "ConversionMayusculaMinuscula",
+      "request": "launch",
+      "mainClass": "ConversionMayusculaMinuscula",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "ConversionTemperatura",
+      "request": "launch",
+      "mainClass": "ConversionTemperatura",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "CopiandoParteArreglo",
+      "request": "launch",
+      "mainClass": "CopiandoParteArreglo",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "Divisibilidad",
+      "request": "launch",
+      "mainClass": "Divisibilidad",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "DivisionSegura",
+      "request": "launch",
+      "mainClass": "DivisionSegura",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "EjercicioComplementario",
+      "request": "launch",
+      "mainClass": "EjercicioComplementario",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "EjercicioSemana",
+      "request": "launch",
+      "mainClass": "EjercicioSemana",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "EncontrandoValorMinimo",
+      "request": "launch",
+      "mainClass": "EncontrandoValorMinimo",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "ExtraccionSubcadenas",
+      "request": "launch",
+      "mainClass": "ExtraccionSubcadenas",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "GenerandoContrasenas",
+      "request": "launch",
+      "mainClass": "GenerandoContrasenas",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "ImprimiendoElemento",
+      "request": "launch",
+      "mainClass": "ImprimiendoElemento",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "LongitudCadena",
+      "request": "launch",
+      "mainClass": "LongitudCadena",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "ManipulacionOraciones",
+      "request": "launch",
+      "mainClass": "ManipulacionOraciones",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "ManipulatingSentences",
+      "request": "launch",
+      "mainClass": "ManipulatingSentences",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "MiPrimerPrograma",
+      "request": "launch",
+      "mainClass": "MiPrimerPrograma",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "NumeroAleatorioLimites",
+      "request": "launch",
+      "mainClass": "NumeroAleatorioLimites",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "NumerosAleatorios",
+      "request": "launch",
+      "mainClass": "NumerosAleatorios",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "NumerosPrimosPlus",
+      "request": "launch",
+      "mainClass": "NumerosPrimosPlus",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "OrdenarFormaDescendente",
+      "request": "launch",
+      "mainClass": "OrdenarFormaDescendente",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "PromediandoElementos",
+      "request": "launch",
+      "mainClass": "PromediandoElementos",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "RedondeoNumeros",
+      "request": "launch",
+      "mainClass": "RedondeoNumeros",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "RemplazoCaracteres",
+      "request": "launch",
+      "mainClass": "RemplazoCaracteres",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "RestaManejoExcepciones",
+      "request": "launch",
+      "mainClass": "RestaManejoExcepciones",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "SeleccionFiguraGeometrica",
+      "request": "launch",
+      "mainClass": "SeleccionFiguraGeometrica",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "SeleccionOpcion",
+      "request": "launch",
+      "mainClass": "SeleccionOpcion",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "SumaNumeros",
+      "request": "launch",
+      "mainClass": "SumaNumeros",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "SumandoElementos",
+      "request": "launch",
+      "mainClass": "SumandoElementos",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "ValidacionContrasena",
+      "request": "launch",
+      "mainClass": "ValidacionContrasena",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "ValorAbsoluto",
+      "request": "launch",
+      "mainClass": "ValorAbsoluto",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "VerificaContenidoLetras",
+      "request": "launch",
+      "mainClass": "VerificaContenidoLetras",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "VerificacionDiaHabil",
+      "request": "launch",
+      "mainClass": "VerificacionDiaHabil",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "clasificarNumeros",
+      "request": "launch",
+      "mainClass": "clasificarNumeros",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "mostrarCalificacion",
+      "request": "launch",
+      "mainClass": "mostrarCalificacion",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "practicaScanner",
+      "request": "launch",
+      "mainClass": "practicaScanner",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "practicaScanner2",
+      "request": "launch",
+      "mainClass": "practicaScanner2",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "practicaScanner3",
+      "request": "launch",
+      "mainClass": "practicaScanner3",
+      "projectName": "introduccion_java_b3ff6f38"
+    },
+    {
+      "type": "java",
+      "name": "practicaScanner4",
+      "request": "launch",
+      "mainClass": "practicaScanner4",
+      "projectName": "introduccion_java_b3ff6f38"
+    }
+  ]
+}
